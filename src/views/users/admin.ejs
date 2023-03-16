@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<%- include('../partials/head', {title: 'Admin' }) %>
+
+      <body>
+            <h1>Administrador</h1>
+            <%- include('../partials/header') %>
+                  <div class="container-img">
+                        <div width="20%">
+                              <img src=" /images/welcome.png">
+                        </div>
+                        <nav>
+                              <h2>Bienvenido Sr/a. <%= name %>
+                              </h2>
+                              <br>
+
+
+                              <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-primary"
+                                          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                          Agregar Productos</button>
+                                    <button type="button" class="btn btn-primary"
+                                          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                          Modificar Productos</button>
+                                    <button type="button" class="btn btn-primary"
+                                          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                          Eliminar Productos</button>
+                                    <button type="button" class="btn btn-primary"
+                                          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                          Mi Perfil</button>
+                                    <button type="button" class="btn btn-primary"
+                                          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                          Cambiar contraseña</button>
+                              </div>
+
+                        </nav>
+                  </div>
+      </body>
+
+</html>

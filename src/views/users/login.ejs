@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<%- include('../partials/head', {title: 'Login' }) %>
+
+      <body>
+            <h1>Inicio de Sesión</h1>
+            <%- include('../partials/header') %>
+                  <main class="container">
+                        <section class="row">
+                              <article class="clol-12 col-md-8 mx-auto">
+                                    <div class="card shadow">
+                                          <div class="card-body">
+                                                <form method="POST">
+                                                      <div class="mb-3">
+                                                            <label for="name" class="form-label">Administrador</label>
+                                                            <input type="text" class="form-control" name="name" id="name"
+                                                                  placeholder="Ingresa tu nombre">
+                                                      </div>
+                                                      <div class="mb-3">
+                                                            <button class="btn btn-primary">Ingresar</button>
+                                                      </div>
+                                                </form>
+                                          </div>
+
+                                    </div>
+                              </article>
+                        </section>
+                  </main>
+      </body>
+
+</html>
